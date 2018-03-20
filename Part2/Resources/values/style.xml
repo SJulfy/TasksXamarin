@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.Custom" parent="@android:style/Theme.WithActionBar"><item name="android:colorBackground">#fffffffe</item><item name="android:windowBackground">?android:attr/colorBackground</item></style>
+</resources>

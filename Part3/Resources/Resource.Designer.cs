@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Part2.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Part3.Resource", IsApplication=true)]
 
-namespace Part2
+namespace Part3
 {
 	
 	
@@ -41,39 +41,11 @@ namespace Part2
 			}
 		}
 		
-		public partial class Drawable
-		{
-			
-			// aapt resource value: 0x7f020000
-			public const int gitHubPicture = 2130837504;
-			
-			static Drawable()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Drawable()
-			{
-			}
-		}
-		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int MainRelativeLayout = 2131099648;
-			
-			// aapt resource value: 0x7f060004
-			public const int button1 = 2131099652;
-			
-			// aapt resource value: 0x7f060002
-			public const int datePicker = 2131099650;
-			
-			// aapt resource value: 0x7f060001
-			public const int imageView1 = 2131099649;
-			
-			// aapt resource value: 0x7f060003
-			public const int textArea = 2131099651;
+			// aapt resource value: 0x7f050000
+			public const int myButton = 2131034112;
 			
 			static Id()
 			{
@@ -101,11 +73,30 @@ namespace Part2
 			}
 		}
 		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int Icon = 2130837504;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040001
+			public const int app_name = 2130968577;
+			
 			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			public const int hello = 2130968576;
 			
 			static String()
 			{
@@ -113,22 +104,6 @@ namespace Part2
 			}
 			
 			private String()
-			{
-			}
-		}
-		
-		public partial class Style
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Custom = 2131034112;
-			
-			static Style()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Style()
 			{
 			}
 		}
